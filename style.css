@@ -1,0 +1,45 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  } 
+
+h1{
+    font-family:DigifaceWide;
+    font-weight: bolder;
+    color: coral;
+    background-color: aquamarine;
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    padding-top: 10px;
+   font-size: 25px;
+}
+
+canvas{
+border: 5px solid rgb(126, 126, 126);
+border-radius: 25px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 1px 1px 38px black;}
+    to {box-shadow: 1px 1px 38px rgb(194, 194, 194);}
+}
+
